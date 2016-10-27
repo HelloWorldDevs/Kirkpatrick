@@ -1077,3 +1077,6 @@ h4.modal-title {
 .device-xxs .button-2 {
     font-size:16px;
 }
+#patient-reviews iframe {
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
