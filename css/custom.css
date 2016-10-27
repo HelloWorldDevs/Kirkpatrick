@@ -1081,3 +1081,11 @@ h4.modal-title {
 #patient-reviews iframe {
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 }
+
+.device-md #slide-2 div.move-left, .device-md #slide-2 h2 {
+    margin-left:30px;
+}
+.device-md #slide-2 a.button {
+    margin-left:15px !important;
+}
+
