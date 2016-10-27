@@ -64,7 +64,7 @@ h2 {
     top:-102px;
 }
 .rev-slide {
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#FFF;
 }
 #slide-1 h5 {
@@ -87,7 +87,7 @@ h2 {
 #slide-1 p {
     font-size:28px !important;
     font-weight:400;
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     position:relative;
     line-height:35px;
 }
@@ -125,19 +125,20 @@ h2 {
 #slide-1 .final-p a {
     color:#FFF;
 }
+
 #slide-2 .text-1 {
     font-size:28px;
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#FFF !important;
 }
 #slide-2 h2 {
     font-size:60px;
     color:#FFF !important;
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight:700;
 }
 #slide-2 .text-3 {
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#FFF !important;
     font-size:28px;
 }
@@ -159,15 +160,15 @@ h2 {
 #slide-3 .text-1 {
     color:#FFF !important;
     font-size:30px;
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 #slide-3 h2 {
     font-size:60px;
     color:#FFF !important;
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 #slide-3 .text-3 {
-    font-family:font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#FFF;
     font-size:24px;
 }
@@ -368,9 +369,6 @@ h2 {
     background-position:center center;
 }
 
-#fall-specials h4 {
-    margin-bottom:
-}
 #fall-specials > div > div:nth-child(1) > div > div > h5, #fall-specials > div > div:nth-child(1) > div > div > h4 {
     color:#FFF;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.75);
@@ -718,7 +716,7 @@ h2 {
 }
 
 .device-xxs #membership-club h2 {
-    font-size:32px;
+    font-size:30px;
 }
 #sub-membership-row img {
     width:100%;
@@ -959,7 +957,7 @@ a.social-icon.si-colored.si-small.si-borderless.si-citysearch {
 
 .device-xxs #copyrights .social-icon {
     position:relative;
-    left:22%;
+    left:23%;
 }
 .device-xxs .care-credit {
     margin-top:10px;
@@ -1047,4 +1045,30 @@ h4.modal-title {
 
 #mobile-slider > img {
     width:100%;
+}
+.device-sm .tour-btn-wrap, .device-xs .tour-btn-wrap, .device-xxs .tour-btn-wrap {
+    text-align:center;
+}
+.device-sm #contact-form-overlay-mini, .device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
+    box-shadow:none;
+}
+.device-xs #membership-club h2 {
+    font-size:46px;
+}
+.device-xxs .specials-row {
+    padding-left:20px;
+    padding-right:20px;
+}
+.device-xxs #phone-slug-1 .button {
+    padding-left:40px;
+    padding-right:40px;
+}
+.device-xxs #services h2 {
+    font-size:34px;
+}
+.device-xxs .button-1 {
+    font-size:16px;
+}
+.device-xxs .button-2 {
+    font-size:16px;
 }
