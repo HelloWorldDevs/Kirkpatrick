@@ -601,14 +601,14 @@ h2 {
 }
 
 .section-patient-reviews h2 {
-    color: #FFF;
-    text-shadow: 2px 2px 6px #8A4303;
+    color: #084174;
+    text-shadow: 2px 2px 6px #FFF;
     margin-bottom:30px;
     line-height:55px;
 }
 .section-patient-reviews h5 {
-    text-shadow: 2px 2px 6px #8A4303;
-    color:#FFF;
+    text-shadow: 2px 2px 6px #FFF;
+    color:#084174;
     margin-bottom:0;
 }
 .device-xs .section-patient-reviews h2, .device-xxs .section-patient-reviews h2 {
@@ -1080,4 +1080,39 @@ h4.modal-title {
 }
 #patient-reviews iframe {
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+@media(min-width:1200px) {
+    .slide-img-wrap {
+        display:none;
+    }
+    .slide-img {
+        display:inherit;
+    }
+}
+@media (max-width:1199px) {
+    .slide-img-wrap {
+        display:inherit;
+    }
+    .slide-img-wrap img {
+        height:850px;
+    }
+    #slider {
+        height:850px !important;
+    }
+    .slide-img {
+        display:none !important;
+    }
+    .one-page-arrow {
+        position:relative;
+        top:-200px;
+    }
+    .two {
+        margin-left:50px;
+    }
+}
+@media (max-width:992px) {
+    .slide-img-wrap{
+        display:none;
+    }
 }
